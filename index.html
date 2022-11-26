@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enroll Now | GSG ERPNext</title>
+  <!-- Custom fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/flowbite@1.5.4/dist/datepicker.js"></script>
+</head>
+
+<body>
+  <!-- Enroll now form -->
+  <section>
+    <div class="container">
+      <d class="flex justify-center items-center h-25">
+        <img src="./images/gsg-logo.png" class="w-52 mb-8" alt="GSG logo">
+      </d>
+      <form class="bg-gray-200 w-[36rem] mx-auto p-8">
+        <h2 class="mb-6 text-2xl font-bold text-center mb-8">Enroll Now for GSG ERPNext Training.</h2>
+        <div class="mb-6">
+          <label for="university_specialization"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">University Specializations</label>
+          <select id="university_specialization" name="university_specialization"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            <option selected>Choose a specialization</option>
+            <option value="translation">Translation and Content Writing</option>
+            <option value="voice_over">Voice Over</option>
+            <option value="digital_marketing">Digital Marketing</option>
+            <option value="graphic_design">Graphic Design</option>
+            <option value="option_1">Option 1</option>
+            <option value="option_2">Option 2</option>
+            <option value="option_3">Option 3</option>
+            <option value="option_4">Option 4</option>
+          </select>
+        </div>
+        <div class="mb-6">
+          <label for="education_level" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">What's Your
+            Education Level?</label>
+          <select id="education_level" name="education_level"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            <option selected>Choose an education level</option>
+            <option value="diploma">I have a diploma</option>
+            <option value="ba">I have a bachelor of arts</option>
+            <option value="master">I have a master degree</option>
+            <option value="phd">I have a PhD</option>
+            <option value="option_1">Option 1</option>
+            <option value="option_2">Option 2</option>
+            <option value="option_3">Option 3</option>
+            <option value="option_4">Option 4</option>
+          </select>
+        </div>
+        <div class="mb-6">
+          <label for="geographic_area" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
+            Geographic Area</label>
+          <select id="geographic_area" name="geographic_area"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            <option selected>Select your geographic area</option>
+            <option value="gaza">Gaza</option>
+            <option value="jabalia">Jabalia</option>
+            <option value="Rafah">Rafah</option>
+            <option value="option_1">Option 1</option>
+            <option value="option_2">Option 2</option>
+            <option value="option_3">Option 3</option>
+            <option value="option_4">Option 4</option>
+          </select>
+        </div>
+        <div class="mb-6">
+          <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First
+            Name</label>
+          <input type="text" id="first_name" name="first_name"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            required="">
+        </div>
+        <div class="mb-6">
+          <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Last
+            Name</label>
+          <input type="text" id="last_name" name="last_name"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            required="">
+        </div>
+        <div class="mb-6">
+          <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email
+            Address</label>
+          <input type="email" id="email" name="email"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="name@flowbite.com" required="">
+        </div>
+        <div class="mb-6">
+          <label for="dob" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Date of Birth</label>
+          <div inline-datepicker data-date="02/25/2022"></div>
+        </div>
+        <div class="mb-6">
+          <label for="phone_number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Phone
+            Number</label>
+          <input type="tel" id="phone_number" name="phone_number"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            required="">
+        </div>
+        <div class="mb-6">
+          <label for="gender" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Gender</label>
+          <select id="gender" name="gender"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            <option selected>Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="mb-6">
+          <label for="disability_status" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Do You
+            Have Any Disability?</label>
+          <select id="disability_status" name="disability_status"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            <option selected>Select a choice</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <button type="submit"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Apply</button>
+      </form>
+    </div>
+  </section>
+  <!-- /Enroll now form -->
+</body>
+
+</html>
